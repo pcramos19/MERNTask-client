@@ -79,7 +79,7 @@ const NuevaCuenta = (props) => {
 
     return ( 
         <div className="form-usuario">
-            { alerta ? ( <div className={`alerta ${alerta.categoria}`}> {alerta.msg} </div> )  : null }
+           
             <div className="contenedor-form sombra-dark">
                 <h1>Obtener una cuenta</h1>
 
@@ -133,7 +133,7 @@ const NuevaCuenta = (props) => {
                             onChange={onChange}
                         />
                     </div>
-
+                    { alerta ? ( <div className={`alerta ${alerta.categoria}`}> {alerta.msg} </div> )  : null }
                     <div className="campo-form">
                         <input type="submit" className="btn btn-primario btn-block" value="Registrarme" />
                     </div>

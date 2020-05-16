@@ -87,6 +87,9 @@ a {
   display: block;
   background-color: transparent;
 }
+.cerrar-sesion{
+  color: white;
+}
 
 @media (min-width: 768px) {
   .contenedor-app {
@@ -108,6 +111,12 @@ a {
 /* BARRA LATERAL */
 aside  {
   padding: 3rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+aside img{
+  width: 200px;
 }
 
 .formulario-nuevo-proyecto {
@@ -123,15 +132,21 @@ aside  {
 }
 .proyectos {
   margin-top: 10rem;
+  text-align: center;
+}
+.listado-proyectos ul{
+  text-align: center;
 }
 .listado-proyectos li {
   margin-bottom: 2rem;
+  text-align: center;
 }
 .listado-proyectos li a {
   font-size: 1.4rem;
   color: var(--gris2);
   line-height: 1.5;
   font-weight: 300;
+  text-align: center;
 }
 .app-header {
   display: flex;

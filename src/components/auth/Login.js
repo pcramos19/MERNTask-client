@@ -57,7 +57,7 @@ const Login = (props) => {
 
     return ( 
         <div className="form-usuario">
-            { alerta ? ( <div className={`alerta ${alerta.categoria}`}> {alerta.msg} </div> )  : null }
+           
 
             <div className="contenedor-form sombra-dark">
                 <h1>Iniciar Sesión</h1>
@@ -88,7 +88,7 @@ const Login = (props) => {
                             onChange={onChange}
                         />
                     </div>
-
+                    { alerta ? ( <div className={`alerta ${alerta.categoria} `}> {alerta.msg} </div> )  : null }
                     <div className="campo-form">
                         <input type="submit" className="btn btn-primario btn-block" value="Iniciar Sesión" />
                     </div>

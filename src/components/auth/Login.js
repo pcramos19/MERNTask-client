@@ -57,7 +57,7 @@ const Login = (props) => {
 
     return ( 
         <div className="form-usuario">
-           
+           {/* <img src="../../../logo.png" alt=""/> */}
 
             <div className="contenedor-form sombra-dark">
                 <h1>Iniciar Sesión</h1>

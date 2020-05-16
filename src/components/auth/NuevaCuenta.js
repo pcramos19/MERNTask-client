@@ -79,6 +79,8 @@ const NuevaCuenta = (props) => {
 
     return ( 
         <div className="form-usuario">
+
+            {/* <img src="../../../logo.png" alt=""/> */}
            
             <div className="contenedor-form sombra-dark">
                 <h1>Obtener una cuenta</h1>

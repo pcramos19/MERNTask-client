@@ -1,11 +1,11 @@
 :root {
   --blanco: #ffffff;
   --gris1: #edf2f6;
-  --gris2: #2f3848;
-  --gris3: #1a202d;
+  --gris2: #2f3030;
+  --gris3: #212222;
   --negro: #000000;
-  --headingFont:'Raleway', sans-serif;
-  --textFont:  'Roboto', sans-serif;
+  --headingFont:'Ubuntu', sans-serif;
+  --textFont:  'Ubuntu', sans-serif;
 }
 *, *:before, *:after {
   box-sizing: inherit;
@@ -301,7 +301,9 @@ aside img{
 
 .form-usuario {
     background-color: var(--gris2);
-    background: url(https://images.unsplash.com/photo-1504292004442-f285299403fa?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1353&q=80);
+    background: url(https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80);
+    background-repeat: no-repeat;
+    background-size: cover;
     height: 100vh;
     min-height: 600px;
     display: flex;
@@ -310,7 +312,7 @@ aside img{
     justify-content: center;
 }
 .form-usuario img{
-  width: 150px;
+  width: 250px;
   border-radius: 5px;
 }
 
